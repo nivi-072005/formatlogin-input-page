@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Anything</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Anything</h1>
+  
+  <!-- Use Formsubmit (replace YOUR_EMAIL with your actual email) -->
+  <form action="https://formsubmit.co/nivethacse07@gmailcom" method="POST">
+    <input type="text" name="search" placeholder="Type your search..." required>
+    <input type="submit" value="Submit">
+    
+    <!-- Hidden fields -->
+    <input type="hidden" name="_subject" value="New Search Query!">
+    <input type="hidden" name="_captcha" value="false">
+  </form>
+
+</body>
+</html>
